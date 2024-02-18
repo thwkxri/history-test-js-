@@ -30,5 +30,5 @@ function history_test() {
   if (document.getElementsByName('q10')[0].checked) {
     score++;
   }
-  document.getElementById('score').textContent = `Правильных ответов: ${score}/10`;
+  document.getElementById('score').textContent = `Правильных ответов:  ${score}/10`;
 }
